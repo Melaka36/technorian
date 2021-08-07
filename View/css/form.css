@@ -1,13 +1,14 @@
 body{
     margin: 0;
 }
-.container
-.outbox{
-    width: 100vw;
+.fullbody{
+    width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom left,rgb(15, 212, 238),rgb(177, 23, 238));
-    padding-top: 100px;
+    background-color: rgb(59, 98, 207);
 }
-.subcontainer{
-    background-color: aquamarine;
+.container{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    padding: 2cm;
 }
