@@ -1,0 +1,12 @@
+a{
+    background-color: rgb(116, 197, 116);
+    color: white;
+    padding: 1em;
+    border-radius: 0.4cm;
+}
+a:hover{
+    background-color:  rgb(59, 185, 59);
+    color: white;
+    padding: 1.1em;
+    border-radius: 0.4cm;
+}
