@@ -1,12 +1,13 @@
-a{
-    background-color: rgb(116, 197, 116);
-    color: white;
-    padding: 1em;
-    border-radius: 0.4cm;
+body{
+    margin: 0;
 }
-a:hover{
-    background-color:  rgb(59, 185, 59);
-    color: white;
-    padding: 1.1em;
-    border-radius: 0.4cm;
+.container
+.outbox{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom left,rgb(15, 212, 238),rgb(177, 23, 238));
+    padding-top: 100px;
+}
+.subcontainer{
+    background-color: aquamarine;
 }
