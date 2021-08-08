@@ -1,0 +1,30 @@
+.flex-container{ /* selectors*/
+    display: flex; /*flex-container becomes flexible by setting it's display : to flex  */
+    flex-direction: row;
+    background-color: rgb(149, 149, 194);
+    flex-wrap: wrap;
+    
+}
+.flex-container > div { /* apply all <div> tags inside the flex-container*/
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    line-height: 75px;
+    align-items: flex-start;
+}
+
+/*        .flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+    </style> */
