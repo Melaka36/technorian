@@ -1,14 +1,40 @@
 body{
     margin: 0;
 }
-.fullbody{
+.container{
     width: 100%;
     height: 100vh;
     background-color: rgb(59, 98, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
-.container{
-    width: 250px;
-    height: 300px;
+.sub-container{
+    width: 450px;
+    height: 400px;
     background-color: white;
-    padding: 2cm;
+    padding: 0.7cm;
+    border-radius: 16px;
+}
+.header{
+    font-size: xx-large;
+    font-weight:500;
+    color: rgb(57, 42, 196);
+}
+.small-text{
+    color: black    ;
+}
+label{
+    width: 150px;
+    float: left;
+}
+.input-feilds{
+    padding: 5px;
+}
+
+.input{
+    background-color: rgb(221, 224, 226);
+    border: 0 ;
 }
